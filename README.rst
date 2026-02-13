@@ -105,6 +105,7 @@ specify any settings, but we recommend to specify at least some metadata.
         'VERSION': '1.0.0',
         'SERVE_INCLUDE_SCHEMA': False,
         # OTHER SETTINGS
+        'COMPONENT_SPLIT_REQUEST': True, #for file upload
     }
 
 .. _self-contained-ui-installation:
